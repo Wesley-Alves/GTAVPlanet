@@ -1,0 +1,704 @@
+<html>
+	<head>
+		<title>Missões | GTA V Planet</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="shortcut icon" type="image/png" href="imagens/favicon.png">
+        <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="main">
+			<div id="header">
+            </div>
+			<div id="menu">
+				<div id="menu-links">
+					<a href="home.html">Home</a>
+					<div class="submenu">
+						<a href="#">Personagens</a>
+						<div class="submenu-links">
+							<a href="personagens.html#franklin-clinton">Franklin Clinton</a>
+							<a href="personagens.html#michael-de-santa">Michael de Santa</a>
+							<a href="personagens.html#trevor-philips">Trevor Philips</a>
+							<a href="personagens.html">Lista de Personagens</a>
+						</div>
+					</div>
+					<a href="mapa.html">Mapa</a>
+					<a href="missoes.html">Missões</a>
+					<a href="estranhos-e-doidos.html">Estranhos e Doidos</a>
+					<a href="veiculos.html">Veículos</a>
+					<a href="armas.html">Armas</a>
+					<a href="galeria.html">Galeria</a>
+					<a href="fale-conosco.html">Fale Conosco</a>
+				</div>
+            </div>
+			<div id="content" class="sem-margem">
+				<div id="indice-missoes">
+					<h1>Índice</h1>
+					<ul>
+						<li><a href="#missao-prologo">Prólogo</a></li>
+						<li><a href="#missao-franklin-e-lamar">Franklin e Lamar</a></li>
+						<li><a href="#missao-retomada-de-posse">Retomada de Posse</a></li>
+						<li><a href="#missao-agravantes">Agravantes</a></li>
+						<li><a href="#missao-pai-filho">Pai/Filho</a></li>
+						<li><a href="#missao-chop">Chop</a></li>
+						<li><a href="#missao-terapia-de-casais">Terapia de Casais</a></li>
+						<li><a href="#missao-garotinha-do-papai">Garotinha do Papai</a></li>
+						<li><a href="#missao-solicitacao-de-amizade">Solicitação de Amizade</a></li>
+						<li><a href="#missao-o-bom-marido">O Bom Marido</a></li>
+						<li><a href="#missao-o-reconhecimento-da-joalheria">O Reconhecimento da Joalheria</a></li>
+						<li><a href="#missao-bugstars-equipamentos">Bugstars: Equipamentos</a></li>
+						<li><a href="#missao-granadas-de-gas-bz">Granadas de Gás BZ</a></li>
+						<li><a href="#missao-o-golpe-a-joalheria">O Golpe à Joalheria</a></li>
+						<li><a href="#missao-stretch-na-area">Stretch na Área</a></li>
+						<li><a href="#missao-sr-philips">Sr. Philips</a></li>
+						<li><a href="#missao-trevor-philips-industries">Trevor Philips Industries</a></li>
+						<li><a href="#missao-ron-noiado">Ron Noiado</a></li>
+						<li><a href="#missao-labirinto-de-cristal">Labirinto de Cristal</a></li>
+						<li><a href="#missao-um-reencontro-de-amigos">Um Reencontro de Amigos</a></li>
+						<li><a href="#missao-fama-ou-desgrama">Fama ou Desgrama</a></li>
+						<li><a href="#missao-a-volta-dos-que-nao-foram">A Volta dos que Não Foram</a></li>
+						<li><a href="#missao-alguem-falou-em-ioga">Alguém Falou em Ioga?</a></li>
+						<li><a href="#missao-dois-e-bom-tres-e-foda">Dois é Bom, Três é Foda</a></li>
+						<li><a href="#missao-safari-na-quebrada">Safari na Quebrada</a></li>
+						<li><a href="#missao-ao-pe-da-letra">Ao Pé da Letra</a></li>
+						<li><a href="#missao-o-reconhecimento-do-porto">O Reconhecimento do Porto</a></li>
+						<li><a href="#missao-minissubmarino">Minissubmarino</a></li>
+						<li><a href="#missao-cargobob">Cargobob</a></li>
+						<li><a href="#missao-macacoes">Macacões</a></li>
+						<li><a href="#missao-mascaras">Máscaras</a></li>
+						<li><a href="#missao-caminhao-guincho">Caminhão Guincho</a></li>
+						<li><a href="#missao-caminhao-de-lixo">Caminhão de Lixo</a></li>
+						<li><a href="#missao-o-golpe-de-merryweather">O Golpe de Merryweather</a></li>
+						<li><a href="#missao-o-assassinato-no-hotel">O Assassinato no Hotel</a></li>
+						<li><a href="#missao-jogada-ensaiada">Jogada Ensaiada</a></li>
+						<li><a href="#missao-eu-lutei-contra-a-lei">Eu Lutei Contra a Lei</a></li>
+						<li><a href="#missao-sr-richards">Sr. Richards</a></li>
+						<li><a href="#missao-vigilancia-aerea">Vigilância Aérea</a></li>
+						<li><a href="#missao-o-assassinato-multiplo">O Assassinato Múltiplo</a></li>
+						<li><a href="#missao-o-assassinato-da-luxuria">O Assassinato da Luxúria</a></li>
+						<li><a href="#missao-o-assassinato-no-onibus">O Assassinato no Ônibus</a></li>
+						<li><a href="#missao-caida-libre">Caida Libre</a></li>
+						<li><a href="#missao-leve-turbulencia">Leve Turbulência</a></li>
+						<li><a href="#missao-esquematizando-o-golpe-de-paleto">Esquematizando o Golpe de Paleto</a></li>
+						<li><a href="#missao-maquinario-militar">Maquinário Militar</a></li>
+						<li><a href="#missao-predador">Predador</a></li>
+						<li><a href="#missao-o-golpe-de-paleto-bay">O Golpe de Paleto Bay</a></li>
+						<li><a href="#missao-descarrilhado">Descarrilhado</a></li>
+						<li><a href="#missao-fazendo-macaquices">Fazendo Macaquices</a></li>
+						<li><a href="#missao-hang-ten">Hang Ten</a></li>
+						<li><a href="#missao-fitando-o-golpe">Fitando o Golpe</a></li>
+						<li><a href="#missao-infiltrado">Infiltrado</a></li>
+						<li><a href="#missao-o-assassinato-na-construcao">O Assassinato na Construção</a></li>
+						<li><a href="#missao-aguas-passadas">Águas Passadas</a></li>
+						<li><a href="#missao-o-homem-do-saco">O Homem do Saco</a></li>
+						<li><a href="#missao-carne-fresca">Carne Fresca</a></li>
+						<li><a href="#missao-a-balada-do-rocco">A Balada do Rocco</a></li>
+						<li><a href="#missao-limpando-o-fib">Limpando o FIB</a></li>
+						<li><a href="#missao-reunindo-a-familia">Reunindo a Família</a></li>
+						<li><a href="#missao-pai-coruja">Pai Coruja</a></li>
+						<li><a href="#missao-a-planta-do-arquiteto">A Planta do Arquiteto</a></li>
+						<li><a href="#missao-caminhao-de-bombeiros">Caminhão de Bombeiros</a></li>
+						<li><a href="#missao-a-invasao-do-fib-plano-a">A Invasão do FIB – Plano A</a></li>
+						<li><a href="#missao-a-invasao-do-fib-plano-b">A Invasão do FIB – Plano B</a></li>
+						<li><a href="#missao-o-encerramento">O Encerramento</a></li>
+						<li><a href="#missao-lamar-em-perigo">Lamar em Perigo</a></li>
+						<li><a href="#missao-problemas-legais">Problemas Legais</a></li>
+						<li><a href="#missao-o-colapso">O Colapso</a></li>
+						<li><a href="#missao-educando-filhos">Educando Filhos</a></li>
+						<li><a href="#missao-o-desvio">O Desvio</a></li>
+						<li><a href="#missao-tuneladora">Tuneladora</a></li>
+						<li><a href="#missao-o-grande-golpe-plano-a">O Grande Golpe – Plano A</a></li>
+						<li><a href="#missao-o-grande-golpe-plano-b">O Grande Golpe – Plano B</a></li>
+						<li><a href="#missao-sensatez">Sensatez</a></li>
+						<li><a href="#missao-chegou-a-hora">Chegou a hora</a></li>
+						<li><a href="#missao-a-opcao-c">A Opção C</a></li>
+					</ul>
+				</div>
+				<div id="missoes">
+					<div id="pagina-1" class="pagina">
+						<div id="missao-prologo" class="missao">
+							<h2>1. Prólogo</h2>
+							<p>
+								<img src="imagens/missoes/prologo.jpg" alt="Prólogo">
+								O jogo começa em Ludendoff no ano de 2004. Trevor, Michael e Brad fazem um assalto a banco, prendendo os reféns em uma sala e explodindo o cofre com explosivos acionados por um celular. Ao pegar o dinheiro e sair do cofre, Michael é rendido por um guarda do banco, que é morto por Trevor com um tiro na cabeça. Eles então explodem uma porta do banco para fugir, mas são surpreendidos pela polícia. Após acabar com a resistência da polícia, os três vão para o carro de fuga. Eles vão seguir até um ponto onde deve ter um helicóptero a espera, mas a polícia os perseguem, o motorista “caipira” é morto, Michael assume o controle, mas bate em uma árvore ao desviar de um trem. Então seguem para o ponto de fuga, onde não encontram o helicóptero e são emboscados pela polícia. Michael e Brad são feridos enquanto Trevor tenta conter a polícia. Ele não consegue e foge sozinho. Em seguida é mostrado o falso enterro de Michael, assistido pelo próprio.
+							</p>
+						</div>
+						<div id="missao-franklin-e-lamar" class="missao">
+							<h2>2. Franklin e Lamar</h2>
+							<p>
+								<img src="imagens/missoes/franklin-e-lamar.jpg" alt="Franklin e Lamar">
+								A segunda missão do GTA 5, Franklin e Lamar, começa mostrando uma conversa entre Michael e seu psicólogo. Depois Michael caminha pela praia, senta em um banco e é abordado por Franklin e Lamar perguntando onde fica a Bertolt Beach House. Os dois vão até a casa, roubam os carros 9F e Rapid GT apostando uma corrida até um estacionamento. A polícia de Los Santos (LSPD) é acionada, e eles fogem e despistam a polícia, levando os carros até a loja Premium Deluxe Motorsport onde o dono, Simeon, está enrolando Jimmy para que ele compre um SUV.
+							</p>
+						</div>
+						<div id="missao-retomada-de-posse" class="missao">
+							<h2>3. Retomada de Posse</h2>
+							<p>
+								<img src="imagens/missoes/retomada-de-posse.jpg" alt="Retomada de Posse">
+								Franklin é eleito o funcionário do mês na loja de carros do Simeon Yetarian. Este manda Franklin e Lamar buscar uma moto comprada por um membro de gangue de Vespucci Beach, Esteban Jimenez, que ficou inadimplente e não que não quer devolver a moto, na terceira missão do GTA 5, Retomada de Posse. Os dois vão até uma garagem onde acreditam que a moto esteja, em Vespucci Beach, mas são surpreendidos e encurralados por membros da gangue dos Vagos. Após eliminar os inimigos em um tiroteio, eles perseguem o sujeito com a moto, eliminam ele, recuperam a motocicleta, mas Lamar decide não devolver a moto para Simeon e fica com ela.
+							</p>
+						</div>
+						<div id="missao-agravantes" class="missao">
+							<h2>4. Agravantes</h2>
+							<p>
+								<img src="imagens/missoes/agravantes.jpg" alt="Agravantes">
+								Simeon Yetarian manda Franklin para buscar o SUV comprado em sua loja pelo Jimmy, antes que ele cause danos ao carro. Franklin vai até a casa do Michael, elimina o jardineiro, invade a casa pela janela e rouba o carro. No caminho de volta, ele é surpreendido com uma arma na cabeça por Michael, que estava escondido dentro do carro. Michael fala para Franklin invadir a loja do Simeon com o carro, e depois espanca este.
+							</p>
+						</div>
+						<div id="missao-pai-filho" class="missao">
+							<h2>5. Pai/Filho</h2>
+							<p>
+								<img src="imagens/missoes/pai-filho.jpg" alt="Pai/Filho">
+								Franklin vai até a casa de Michael pela bebida que este o ofereceu, para ver se Michael tinha algum esquema para ele. Eles estavam para um bar, mas Jimmy liga pedindo ajuda porque ele tentou vender o iate do pai dele, mas foi roubado. Eles entram no carro da Amanda, vão até a estrada oeste em Pacific Bluffs, avistam o barco, perseguem e se aproximam do caminhão, então Franklin pula em cima do barco e luta com um dos ladrões, que é jogada para fora. Michael atira e elimina outro ladrão. O imbecil do Jimmy fica pendurado na vela do barco e Michael tem que ir para baixo dele com o carro para resgatá-lo. Jimmy e Franklin pulam para dentro do barco, o carro para de funcionar e os ladrões conseguem levar o barco embora. Franklin e Jimmy levam o carro até a Los Santos Custom enquanto Michael vai para casa de táxi.
+							</p>
+						</div>
+						<div id="missao-chop" class="missao">
+							<h2>6. Chop</h2>
+							<p>
+								<img src="imagens/missoes/chop.jpg" alt="Chop">
+								Franklin chega em sua casa, mas se esconde de sua tia chata. Lamar aparece com o cachorro Chop, então eles vão até uma van para ir até a Vinewood Boulevard. Eles encontram Devin (D), membro da gangue dos Ballas, que foge de moto. Franklin e Lamar perseguem “D”, com a intenção de sequestrá-lo, que consegue fugir e se esconder em um terminal de trens. Franklin então corre atrás dele com o Chop, para farejar onde “D” está escondido, mas Chop encontra uma cadela e cruza com ela. Franklin encontra Devin e Chop corre atrás e morde ele. Lamar joga Devin dentro da van e leva ele para sua casa. Devin foge da van e Franklin deixa Lamar no centro 
+							</p>
+						</div>
+						<div id="missao-terapia-de-casais" class="missao">
+							<h2>7. Terapia de Casais</h2>
+							<p>
+								<img src="imagens/missoes/terapia-de-casais.jpg" alt="Terapia de Casais">
+								Michael chega em casa, mas não encontra ninguém, então repara que há duas raquetes ao lado da porta. Ele sobe para o quarto, encontra Amanda com o instrutor de tênis, que pula pela janela de tanto medo. Franklin chega e vai com Michael atrás do Kyle com a caminhonete. Eles chegam até a casa onde acham que o instrutor mora, amarram o guincho do caminhão no suporte da sacada, Michael acelera o carro e derruba a sacada. Kyle liga para Michael avisando que a casa não é dele, então a dona da casa o interrompe e diz que ele está jurado de morte por Martin Madrazo. Um carro dos homens de Madrazo persegue e atira neles e Franklin atira de volta enquanto Michael dirige. Eles voltam para a casa do Michael, mas Martin Madrazo aparece por lá, ameaça e cobra 2 milhões do Michael para reconstruir a casa da namorada Natalia. Ele então decide adiar a aposentadoria e ligar para o Lester.
+							</p>
+						</div>
+						<div id="missao-garotinha-do-papai" class="missao">
+							<h2>8. Garotinha do Papai</h2>
+							<p>
+								<img src="imagens/missoes/garotinha-do-papai.jpg" alt="Garotinha do Papai">
+								Michael está comendo batatinhas e assistindo TV quando ouve Jimmy falando bobagens, então vai até o quarto dele, discute e quebra a tv com uma cadeira. Os dois então vão andar de bicicleta em Vescpucci Beach e apostam uma corrida até o pier de Del Perro. Lá Jimmy revela que Tracey está no barco Dignity ali perto dando para os produtores de televisão. Michael vai até o barco e resgata Tracey, fugindo em um jetski, mas é perseguido e tenta despistá-los entrando nos canais de Los Santos.
+							</p>
+						</div>
+						<div id="missao-solicitacao-de-amizade" class="missao">
+							<h2>9. Solicitação de Amizade</h2>
+							<p>
+								<img src="imagens/missoes/solicitacao-de-amizade.jpg" alt="Solicitação de Amizade">
+								Michael reencontra seu velho amigo Lester, que dá a ele uma velha mochila e manda arrumar uma roupa de nerd. Michael vai até a loja Suburban, compra a roupa e depois vai ao prédio da rede social Lifeinvader. Lá ele sabota o protótipo do smartphone novo e vai para casa assistir a apresentação do aparelho na tv. No momento da apresentação Michael liga para o smartphone que está na mão do Jay Norris – paródia do Mark Zuckerberg e Steve Jobs -, então o dispositivo explode na cabeça do Jay.
+							</p>
+						</div>
+						<div id="missao-o-bom-marido" class="missao">
+							<h2>10. O Bom Marido</h2>
+							<p>
+								<img src="imagens/missoes/o-bom-marido.jpg" alt="O Bom Marido">
+								Esta missão é opcional, Amanda, esposa de Michael, acaba se envolvendo em problemas com a polícia. Ela liga para Michael e pede para que ele prove ser um bom marido. Michael chega no local onde Amanda está presa dentro de uma viatura policial, Michael a rouba e despista os policiais. Após leve Amanda de volta para a mansão, a qual agradece e entra para dentro. (Muito cuidado quando atender a ligação de Amanda, pois se você recusar, não aparecerá novamente para fazer a missão).
+							</p>
+						</div>
+					</div>
+					<div id="pagina-2" class="pagina">
+						<div id="missao-o-reconhecimento-da-joalheria" class="missao">
+							<h2>11. O Reconhecimento da Joalheria</h2>
+							<p>
+								<img src="imagens/missoes/o-reconhecimento-da-joalheria.jpg" alt="O Reconhecimento da Joalheria">
+								Michael vai até a antiga fábrica de roupa Darnel Bros, que é a nova sede secreta do Lester, que cita Niko Bellic na conversa e combina um novo golpe para ganhar dinheiro. Os dois vão até a joalheria que fica em Little Portola. Michael vai até a joalheria, tira fotos do sistema de ventilação e alarmes, e conversa com a atendente. Por último ele vai até o terraço da loja e tira uma foto do sistema de ventilação. De volta a fábrica de roupas, o jogador tem que escolher entre o plano inteligente e a forma burra e barulhenta, entre o piloto de fuga Eddie Toh e Karim Denz, e mais um assaltante entre Gustavo Mota ou Norm Richards, além dos hackers Christian Feltz, Paige Harris ou Rickie Lukens.
+							</p>
+						</div>
+						<div id="missao-bugstars-equipamentos" class="missao">
+							<h2>12. Bugstars: Equipamentos</h2>
+							<p>
+								<img src="imagens/missoes/bugstars-equipamentos.jpg" alt="Bugstars: Equipamentos">
+								Michael vai até o galpão da Bugstar, rouba uma van da empresa e leva até a fábrica de roupas do Lester, para usar na missão do roubo a joalheria.
+							</p>
+						</div>
+						<div id="missao-granadas-de-gas-bz" class="missao">
+							<h2>13. Granadas de gás BZ</h2>
+							<p>
+								<img src="imagens/missoes/granadas-de-gas-bz.jpg" alt="Granadas de gás BZ">
+								Michael vai até a van da Humane e rouba ela junto com a carga de gás BZ e a leva para a fábrica de roupas para ser usada no roubo da joalheria e liga para o Lester para avisar.
+							</p>
+						</div>
+						<div id="missao-o-golpe-a-joalheria" class="missao">
+							<h2>14. O Golpe à Joalheria</h2>
+							<p>
+								<img src="imagens/missoes/o-golpe-a-joalheria.jpg" alt="O Golpe à Joalheria">
+								A equipe está reunida na fábrica de roupas Darnell Bros para o roubo à joalheria. Lester revisa o plano e diz o que todos devem fazer. Eles seguem para a joalheria. Franklin sobe no terraço, joga o gás do sono na ventilação e então eles realizam o assalto, quebrando as vitrines e pegando as jóias. Eles fogem de moto, mas a polícia os seguem até o canal, onde aparece o Michael com um caminhão e despista a polícia para chegar no ponto de encontro. As motos são colocadas dentro do caminhão e levadas até a garagem.
+							</p>
+						</div>
+						<div id="missao-stretch-na-area" class="missao">
+							<h2>15. Stretch na Área</h2>
+							<p>
+								<img src="imagens/missoes/stretch-na-area.jpg" alt="Stretch na Área">
+								Franklin chega em casa e se depara com sua tia e outras feministas chatas na sala. Lamar aparece por lá com Stretch, que saiu da cadeia recentemente. Os três vão até a Ammu-Nation comprar armas e depois vão ao encontro de D-Devin no centro de reciclagem, achando que é uma reunião, mas é uma emboscada dos Ballas. Eles tem que combater os Ballas, fugir do local e da polícia e voltar para a casa do Franklin.
+							</p>
+						</div>
+						<div id="missao-sr-philips" class="missao">
+							<h2>16. Sr.Philips</h2>
+							<p>
+								<img src="imagens/missoes/sr-philips.jpg" alt="Sr.Philips">
+								Franklin aparece na casa do Michael e logo depois aparece o agente Dave Norton do FIB, avisando sobre o perigo do Michael se expor com o roubo. Trevor reconhece a fala de Michael pelo noticiário da TV e descobre que seu velho “amigo” está vivo. Johnny Klebitz cobra explicações de Trevor por ele ter pego a namorada dele, então Trevor o mata. Ele vai com Ron e Wade até os motoqueiros da Lost MC e os provoca dizendo que matou o Johnny, então segue a van até o acampamento de trailers do motoqueiros e elimina todos. Trevor vai até o trailer do Ortega, empurra para o rio e o mata, ficando com o monopólio de armas e drogas para a “Trevor Phillips Enterprise“.
+							</p>
+						</div>
+						<div id="missao-trevor-philips-industries" class="missao">
+							<h2>17. Trevor Phillips Industries</h2>
+							<p>
+								<img src="imagens/missoes/trevor-philips-industries.jpg" alt="Trevor Phillips Industries">
+								Trevor vai até o bar para encontrar o Tao Cheng e seu intérprete. Eles os leva para conhecer o negócio no laboratório de metanfetamina no liquor ace. Chef avisa que os capangas do Ortega vão aparecer por lá, então os dois se preparam e começam um tiroteio contra eles. Trevor usa o lançador de granadas para eliminar parte dos adversários. Depois de acabar com todos, liberta os chineses na máquina de gelo. Cheng e seu tradutor se assustam e vão embora.
+							</p>
+						</div>
+						<div id="missao-ron-noiado" class="missao">
+							<h2>18. Ron Noiado</h2>
+							<p>
+								<img src="imagens/missoes/ron-noiado.jpg" alt="Ron Noiado">
+								Ron mostra a Trevor que o trailer foi todo destruído pelos motoqueiros. Wade aparece e é intimado a encontrar Michael. Ron e Trevor vão de quadriciclo até a ammu-nation, onde deve comprar um rifle de precisão com mira telescópica avançada e silenciador. Os dois seguem para o aeroporto no deserto e Trevor assume posição em cima da caixa d’água. Ele elimina os motoqueiros a distância, discretamente, enquanto Ron avança. Trevor derruba o helicóptero e vai ajudar Ron a tomar a pista e pouso. Ele sobe na asa do avião enquanto Ron pilota, e atira nos inimigos que estão na pista, até conseguir entrar em outro avião e seguir o Ron. Perto de Fort Zancudo eles voam baixo para não serem detectados. Eles soltam o carregamento no mar e volta para o aeroporto apostando corrida.
+							</p>
+						</div>
+						<div id="missao-labirinto-de-cristal" class="missao">
+							<h2>19. Labirinto de Cristal</h2>
+							<p>
+								<img src="imagens/missoes/labirinto-de-cristal.jpg" alt="Labirinto de Cristal">
+								Trevor chega no bar para negociar os termos do negócio com o Tao Cheng, porém os chineses revelam que não querem mais fazer negócio com ele, pois estão trabalhando com os irmãos O’Neil. Furioso, Trevor vai até a fazenda dos irmãos O’Neil, elimina todos eles, joga gasolina fazendo um rastro do laboratório até fora da casa, depois atira no rastro e a casa explode.
+							</p>
+						</div>
+						<div id="missao-um-reencontro-de-amigos" class="missao">
+							<h2>20. Um Reencontro de Amigos</h2>
+							<p>
+								<img src="imagens/missoes/um-reencontro-de-amigos.jpg" alt="Um Reencontro de Amigos">
+								Trevor aborda Wade para saber se ele encontrou o Michael. Wade enrola e revela que encontrou um Michael de Santa com uma mulher chamada Amanda e com dois filhos. Os dois vão para o estacionamento de trailers da gangue dos motoqueiros. Trevor implanta os explosivos nos trailers, elimina os motoqueiros e explode todo o acampamento do Lost MC. Eles seguem para Los Santos e se hospedam na casa deFloyd, primo de Wade.
+							</p>
+						</div>
+					</div>
+					<div id="pagina-3" class="pagina">
+						<div id="missao-fama-ou-desgrama" class="missao">
+							<h2>21. Fama ou Desgrama</h2>
+							<p>
+								<img src="imagens/missoes/fama-ou-desgrama.jpg" alt="Fama ou Desgrama">
+								Michael está discutindo com Amanda, Jimmy e o viadinho da ioga, Fabien, quando Trevor aparece de surpresa na cozinha. Michael explica que entrou em um programa de testemunha, para a revolta de Trevor. Jimmy revela que Tracey está fazendo um teste para a TV, no programa Fama e Desgrama. Trevor e Michael vão para a Arena Maze Bank para evitar que Tracey vire piada nacional. Eles chegam na hora que Trecey vai se apresentar como ‘dançarina’. Michael interrompe empurrando o Lazlow e Trevor dá uma cadeirada no segurança. Lazlow foge e os dois perseguem ele de caminhão até o canal de Los Santos. Trevor obriga Lazlow Jones a ficar sem calça e a dançar, enquanto ele filma. Michael liga para Dave e fala para se encontrar com ele no observatório Galileo.
+							</p>
+						</div>
+						<div id="missao-a-volta-dos-que-nao-foram" class="missao">
+							<h2>22. A Volta dos que Não Foram</h2>
+							<p>
+								<img src="imagens/missoes/a-volta-dos-que-nao-foram.jpg" alt="A Volta dos que Não Foram">
+								Michael vai ao encontro de Dave Norton no observatório Galileo. Dave pede a Michael para verificar o corpo de Ferdinand Kerimov no escritório do legista e lhe dá uma cacetada na cabeça para ele “se fingir” de morto. Michael acorda no necrotério quando os açougueiros estão avaliando seu corpo. Ele levanta e assusta os dois, se esconde do segurança e procura o corpo, mas não encontra. Michael precisa sair do edifício, troca tiro com seguranças e foge pela janela. Por último Michael vai para os campos de petróleo se encontrar com Franklin para revelar que trabalha para os federais e que seu amigo Trevor reapareceu.
+							</p>
+						</div>
+						<div id="missao-alguem-falou-em-ioga" class="missao">
+							<h2>23. Alguém Falou em Ioga?</h2>
+							<p>
+								<img src="imagens/missoes/alguem-falou-em-ioga.jpg" alt="Alguém Falou em Ioga?">
+								Michael está fumando, bebendo e assistindo tv tranquilamente quando Amanda entra e começa a discutir com ele. O professor de ioga, Fabien, aparece e convida Michael para fazer uma seção. O jogador então tem que pressionar os botões para o Michael fazer as posições babacas que o Fabien pedir. Depois Michael vai até o Burger Shot para levar Jimmy até o amigo dele. Jimmy dá para seu pai uma droga veterinária e empurra ele para fora do carro. Michael tem alucinações, imaginando que está cercado de macacos, que é abduzido por alienígenas e que está voando por Los Santos. Ele acorda, volta pra casa e descobre que sua família o abandonou.
+							</p>
+						</div>
+						<div id="missao-dois-e-bom-tres-e-foda" class="missao">
+							<h2>24. Dois é Bom, Três é Foda</h2>
+							<p>
+								<img src="imagens/missoes/dois-e-bom-tres-e-foda.jpg" alt="Dois é Bom, Três é Foda">
+								Michael se encontra com Dave Norton e Steve Haines na sede do FIB. para discutir sobre o resgate do Ferdinand Karimov. Michael vai até o ponto de encontro e apresenta Franklin e Trevor um para o outro. Os três vão de helicóptero até o prédio da FIB e começam a missão de resgate, com Trevor pilotando o helicóptero, Michael escalando o prédio e Franklin dando cobertura com um rifle de sniper. Eles resgatam Ferdinand, mas são perseguidos por helicópteros do FIB, que são logo destruídos e eles fogem.
+							</p>
+						</div>
+						<div id="missao-safari-na-quebrada" class="missao">
+							<h2>25. Safari na Quebrada</h2>
+							<p>
+								<img src="imagens/missoes/safari-na-quebrada.jpg" alt="Safari na Quebrada">
+								Franklin chega em casa e houve um monte de bobagens sobre lealdade de sua tia Denise e Lamar. Trevor chega e oferece 7 dólares para ela comprar algo bacana. Trevor, Franklin, Lamar e Chop entram na van e vão até a Grove Street. No meio do caminho aparece um easter egg do Carl Johnsons “CJ” andando de bicicleta. Eles vão até a casa comprar drogas, mas descobrem que tem menos do que devia, então começa o tiroteio entre eles e a gangue. Depois eles tem que fugir da polícia pelo canal, utilizando jetski e então voltam para a casa do Lamar.
+							</p>
+						</div>
+						<div id="missao-ao-pe-da-letra" class="missao">
+							<h2>26. Ao Pé da Letra</h2>
+							<p>
+								<img src="imagens/missoes/ao-pe-da-letra.jpg" alt="Ao Pé da Letra">
+								Michael e Trevor se encontram com Dave Norton, Steve Haines e Devin Weston em um galpão abandonado. Eles amarram o Ferdinand numa cadeira para torturá-lo. Michael e Dave vão até Rockford Hill, no Caesars Place, para procurar e eliminar Tahir Javan. O endereço passado pelo azerbaijano estava errado, então Trevor começa a torturá-lo. Ferdinand então revela que Tahir mora em Chumash, na Estrada Oeste. Ele é torturado até conseguir passar todas as características físicas do alvo. Michael consegue identifica-lo e atira no alvo. Trevor decide levar Ferdinand para o aeroporto para ele fugir e os federais não o matarem.
+							</p>
+						</div>
+						<div id="missao-o-reconhecimento-do-porto" class="missao">
+							<h2>27. O Reconhecimento do Porto</h2>
+							<p>
+								<img src="imagens/missoes/o-reconhecimento-do-porto.jpg" alt="O Reconhecimento do Porto">
+								Trevor, Wade e Floyd se vestem como funcionários do porto e vão para lá. Trevor dirige uma empilhadeira e tem que colocar os contêineres no local correto e depois ir até o guincho para colocar os contêineres nas carretas. De cima da passarela do guincho, Trevor tira uma foto do navio e manda para Ron, depois pega a carreta e vai até a área de carga restrita e rouba uma maleta na portaria e volta para a casa do Floyd, onde ele escreve os planos para entrar na Merryweather. O jogador tem que escolher entre a táticado cargueiro ou alto-mar.
+							</p>
+						</div>
+						<div id="missao-minissubmarino" class="missao">
+							<h2>28. Minissubmarino</h2>
+							<p>
+								<img src="imagens/missoes/minissubmarino.jpg" alt="Minissubmarino">
+								Trevor entra no navio, joga o submarino no mar, e vai de encontro ao Floyd, que puxa o submarino com um guincho até a carreta. Trevor leva o caminhão com a carga até o armazém.
+							</p>
+						</div>
+						<div id="missao-cargobob" class="missao">
+							<h2>29. Cargobob</h2>
+							<p>
+								<img src="imagens/missoes/cargobob.jpg" alt="Cargobob">
+								Trevor invade o forte Zancudo para roubar o helicóptero Cargobob para usar no golpe à Merryweather. Para isso ele tem que combater os soldados, escapar dos mísseis anti-aéreos de dos helicópteros Buzzard, e também despistar a polícia para então pousar com ele no aeroporto do deserto.
+							</p>
+						</div>
+						<div id="missao-macacoes" class="missao">
+							<h2>30. Macacões</h2>
+							<p>
+								<img src="imagens/missoes/macacoes.jpg" alt="Macacões">
+								Trevor liga para Michael e Franklin em conferência e diz que precisam arranjar máscaras e macacões para o realizar o plano. Um dos três personagens vai até a ammu-nation e compra 3 macacões.
+							</p>
+						</div>
+					</div>
+					<div id="pagina-4" class="pagina">
+						<div id="missao-mascaras" class="missao">
+							<h2>31. Máscaras</h2>
+							<p>
+								<img src="imagens/missoes/mascaras.jpg" alt="Máscaras">
+								Um dos três personagens vai até a loja de máscaras e compra três máscaras para usar no plano. Compre todas as máscaras de hóquei branco em menos de 20 segundos para conseguir medalha de ouro.
+							</p>
+						</div>
+						 <div id="missao-caminhao-guincho" class="missao">
+							<h2>32. Caminhão Guincho</h2>
+							<p>
+								<img src="imagens/missoes/caminhao-guincho.jpg" alt="Caminhão Guincho">
+								Um dos três personagens vai até uma oficina mecânica e rouba um caminhão guincho para usar no no roubo a Merryweather. Ele leva o guincho até o terreno da FIB.
+							</p>
+						</div>
+                        <div id="missao-caminhao-de-lixo" class="missao">
+							<h2>33. Caminhão de Lixo</h2>
+							<p>
+								<img src="imagens/missoes/caminhao-de-lixo.jpg" alt="Caminhão de Lixo">
+								Um dos três personagens tem que roubar um caminhão de lixo para usar no no roubo a Merryweather, despistar a polícia e levar o veículo até o terreno da FIB.
+							</p>
+						</div>
+						<div id="missao-o-golpe-de-merryweather" class="missao">
+							<h2>34. O Golpe de Merryweather</h2>
+							<p>
+								<img src="imagens/missoes/o-golpe-de-merryweather.jpg" alt="O Golpe de Merryweather">
+								Trevor, Franklin e Michael se reúnem no apartamento do Floyd para planejar o golpe a Merryweather e vão até o aeroporto de Sandy Shores, entram no helicóptero cargobob, guincham o submarino e voam até o mar, onde estão sendo realizados testes do governo. O submarino é então solto e Trevor vai com ele até o dispositivo. Michael reboca o submarino com o cargobob, mas barcos e helicópteros Buzzard da Merryweather aparecem e eles tem que derrubá-los. Eles conseguem voltar à pista de pouso, e lá está Lester inconformado com o roubo da arma nuclear e Trevor descobre que não vai ganhar nada.
+							</p>
+						</div>
+						<div id="missao-o-assassinato-no-hotel" class="missao">
+							<h2>35. O Assassinato no Hotel</h2>
+							<p>
+								<img src="imagens/missoes/o-assassinato-no-hotel.jpg" alt="O Assassinato no Hotel">
+								Franklin e Lester se encontra em frente ao Dune-O’s Beach Cafe e planejam o assassinato de Brett Lowry, diretor da Bilkinton Research, que subornou o FDA para continuar a vender o remédio Pria pol para impotência, pois estava causando mortes. O “Sr. Ganância Lowrey” está hospedado no Hotel Von Crastenburg em Richman. Franklin tem que ir para lá, implantar bombas na entrada do hotel ou esperar no estacionamento ao lado com um rifle de precisão, para eliminar o alvo quando ele aparecer.
+							</p>
+						</div>
+						<div id="missao-jogada-ensaiada" class="missao">
+							<h2>36. Jogada Ensaiada</h2>
+							<p>
+								<img src="imagens/missoes/jogada-ensaiada.jpg" alt="Jogada Ensaiada">
+								Franklin, Michael e Trevor se encontram para combinar um assalto a carro-forte. Eles vão até Cypress Flats. Michael bloqueia a rua com o caminhão de lixo, enquanto Trevor observa do alto quando o carro-forte vai chegar. O carro-forte para na rua, então Franklin acelera o carro-forte com tudo e faz o carro-forte capotar de lado. Franklin cola bombas adesivas nas portas traseiras do carro-forte e consegue arrombá-lo. Eles “limpam” o carro e se posicionam para enfrentar a polícia. Depois de eliminar os policiais, Franklin leva o caminhão até o carro de fuga, explode o caminhão de lixo e cai fora. Enquanto isso Michael vai para a casa do Devin para entregar uma encomenda. Devin então oferece novos serviços para Michael e passa o contato de Solomon Richards para ele.
+							</p>
+						</div>
+						<div id="missao-eu-lutei-contra-a-lei" class="missao">
+							<h2>37. Eu Lutei Contra a Lei</h2>
+							<p>
+								<img src="imagens/missoes/eu-lutei-contra-a-lei.jpg" alt="Eu Lutei Contra a Lei">
+								Franklin, Michael e Trevor se encontram com Devin no prédio em construção no centro de Los Santos. Eles planejam roubar dois carros Entity XF e Cheetah de mauricinhos se disfarçando de policiais de trânsito. Franklin tem que ir até o posto de gasolina em Blaine County para provocar e tirar um racha com os donos dos carros esportivos. Quando eles passam, Trevor e Michael os perseguem de moto, fingindo que são políciais de trânsito. Os motoristas param em cima da ponte, então Michael e Trevor roubam os carros. Os três vão embora para a oficina do Devin, que não gosta do serviço e não quer pagar. Ele então fala para eles roubarem o Z-Type do produtor musical Chad Mulligan.
+							</p>
+						</div>
+						<div id="missao-sr-richards" class="missao">
+							<h2>38. Sr. Richards</h2>
+							<p>
+								<img src="imagens/missoes/sr-richards.jpg" alt="Sr. Richards">
+								Michael vai ao escritório do produtor de cinema Solomon Richards e este conta como será seu novo filme “O Colapso”, sobre a crise financeira americana. Então ele fala sobre o ator Milton Mcllroy e de Rocco Pelosi, que estão atrapalhando as filmagens, e do diretor Anton Beaudelaire, que está passando por um colapso mental e não está querendo filmar. Michael vai para East Los Santos para levá-los de volta ao estúdio. Um helicóptero desce em cima do clube onde os três estão e Michael tem que chegar até ele pelo telhado sem chamar a atenção. Chegando lá ele briga com Rocco e pilota o helicóptero até o estúdio, mas antes tem que assustar os passageiros para eles cooperarem, passando por debaixo de uma ponte e fazendo manobras perigosas. Por último, ele leva o ator e o diretor de volta para o Solomon.
+							</p>
+						</div>
+						<div id="missao-vigilancia-aerea" class="missao">
+							<h2>39. Vigilância Aérea</h2>
+							<p>
+								<img src="imagens/missoes/vigilancia-aerea.jpg" alt="Vigilância Aérea">
+								Trevor vai até a delegacia de polícia de Los Santos a mando do Devin e entra a bordo do helicóptero da polícia. Na aeronave há um scanner que rastreia a identidade de qualquer pessoa cadastrada. Ele tem que escanear o Franklin e depois fazer a leitura do alvo na avenida Hawick. Depois faz a checagem em outro lugar e acha o Chad Mulligan, mas sem o carro. Trevor persegue o alvo com a câmera, até que ele chega a uma garagem. Franklin chega perto de Chad, mas ele se assusta e foge com o carro. Trevor continua a perseguí-lo com o câmera, até que o alvo se esconde em uma garagem. Ele liga a visão térmica e vê várias pessoas lá, então Franklin vai conferir pessoalmente, encontra Chad e foge com seu valioso carro Z-Type. Então ele liga para Molly, que diz para ele levar o carro para o aeroporto.
+							</p>
+						</div>
+						<div id="missao-o-assassinato-multiplo" class="missao">
+							<h2>40. O Assassinato Múltiplo</h2>
+							<p>
+								<img src="imagens/missoes/o-assassinato-multiplo.jpg" alt="O Assassinato Múltiplo">
+								Franklin fala com Lester pelo orelhão de um posto sobre a Redwood Cigarettes, “O cigarro que construíu os Estados Unidos”. Lester fala que a empresa compra o juri para não ter que pagar o tratamento de usuários com enfisema. Ele passa o nome de quatro membros do juri que são corruptos, e Franklin tem que eliminá-los. O primeiro jurado é um homem forte, que está fazendo exercícios perto da praia. O segundo jurado está em um barco junto com uma piranha. No terceiro jurado, a Rockstar coloca uma legenda confusa, levando o jogador ao erro… Você não tem que esperar ninguém aparecer na janela, nem atirar diretamente no homem que está limpando janelas. Ele é o jurado, mas você tem que atirar no cabo de aço que sustenta a plataforma, para ela cair e o jurado morrer. O último jurado está de moto. Atire ou atropele ele, depois despiste a polícia.
+							</p>
+						</div>
+					</div>
+					<div id="pagina-5" class="pagina">
+						<div id="missao-o-assassinato-da-luxuria" class="missao">
+							<h2>41. O Assassinato da Luxúria</h2>
+							<p>
+								<img src="imagens/missoes/o-assassinato-da-luxuria.jpg" alt="O Assassinato da Luxúria">
+								Franklin atende o orelhão e Lester fala sobre Jackson Skinner, chefe de desenvolvimento de produtos de fachada, que vende dados particulares. Lester revela que o sujeito sai sempre com a mesma prostituta, então Franklin fica de olho na garota até que seu alvo chegue. Ele então tem que eliminar o motorista do carro que a prostituta entra.
+							</p>
+						</div>
+						<div id="missao-o-assassinato-no-onibus" class="missao">
+							<h2>42. O Assassinato no Ônibus</h2>
+							<p>
+								<img src="imagens/missoes/o-assassinato-no-onibus.jpg" alt="O Assassinato no Ônibus">
+								Lester liga para Franklin e fala para ele eliminar o Isaac Penny, que assumiu participação majoritária na Vapid Motor Company e despediu milhares de trabalhadores. Ele é um bilionário mão de vaca que pega ônibus para voltar pra casa. Franklin tem que pegar um ônibus e ir de ponto em ponto, até encontrar seu alvo, para depois eliminá-lo.
+							</p>
+						</div>
+						<div id="missao-caida-libre" class="missao">
+							<h2>43. Caida Libre</h2>
+							<p>
+								<img src="imagens/missoes/caida-libre.jpg" alt="Caida Libre">
+								Michael e Trevor vão a casa de Martin Madrazo. Ele pede que Michael assassine seu primo, Javier, que quer testemunhar contra ele. Javier vai de avião até Liberty City, então Michael vai ter que ir até uma colina onde tem uma arma, e atirar contra a aeronave. Trevor tem que perseguir a aeronave até o lugar de sua queda, para recuperar os documentos do Madrazo. Trevor discute com Martin e então sequestra a mulher dele, Patricia.
+							</p>
+						</div>
+						<div id="missao-leve-turbulencia" class="missao">
+							<h2>44. Leve Turbulência</h2>
+							<p>
+								<img src="imagens/missoes/leve-turbulencia.jpg" alt="Leve Turbulência">
+								Franklin não encontra Michael na casa, então liga para ele e fica sabendo que eles estão escondidos no deserto. Ron avisa Trevor que vai chegar um carregamento de armas da Merryweahter, então eles vão até o aeroporto no deserto e Trevor pega um avião Crop Duster para perseguir o avião de carga da Merryweather. Para isso, ele tem que voar baixo para não ser detectado pelos radares. Ele então se aproxima da aeronave e bate na sua porta traseira, conseguindo entrar no avião, elimina toda a tripulação e assume o comando do aviãode carga. Caças interceptam ele e ameaçam derrubá-lo. Trevor tenta escapar, mas eles disparam, então ele pula de pára-quedas para se salvar.
+							</p>
+						</div>
+						<div id="missao-esquematizando-o-golpe-de-paleto" class="missao">
+							<h2>45. Esquematizando o Golpe de Paleto</h2>
+							<p>
+								<img src="imagens/missoes/esquematizando-o-golpe-de-paleto.jpg" alt="Esquematizando o Golpe de Paleto">
+								Steve Haines e Dave Norton chegam e interrompem a discussão de Michael e Trevor. Michael e Trevor vão até Paleto Bay e esperam por Lester, que chega de ônibus. Eles vão até o banco e começam a planejar o roubo. Michael atira no alarme do banco, vai até um posto vizinho e observa a movimentação da polícia. Trevor e Michael apostam uma corrida até o escritório no Liquor Ace. Lester apresenta o plano de assalto ao banco de Paleto Bay.
+							</p>
+						</div>
+						<div id="missao-maquinario-militar" class="missao">
+							<h2>46. Maquinário Militar</h2>
+							<p>
+								<img src="imagens/missoes/maquinario-militar.jpg" alt="Maquinário Militar">
+								Trevor tem que roubar o caminhão Barracks do comboio do exército que está indo para o forte Zancudo e leve para o laboratório de metanfetaminas do Trevor.
+							</p>
+						</div>
+						<div id="missao-predador" class="missao">
+							<h2>47. Predador</h2>
+							<p>
+								<img src="imagens/missoes/predador.jpg" alt="Predador">
+								Franklin persegue os irmãos O’Neil restantes (Walton, Wynn e Elwood) junto com seu cão Chop. Um veado entra na frente do carros dos irmãos e eles caem no penhasco. Franklin vai atrás deles, mas eles fugiram para o mato a pé. Franklin liga para Trevor e pede suporte aéreo. Trevor vai com o helicóptero roubado da FIB e Michael tenta encontrar os alvos com o rifle, mas não consegue pois está muito escuro, então ele acione a mira térmica. Neste momento é possível ver o easter egg do pé-grande. Michael encontra os caipiras e atira neles. O último irmão atira um míssil contra o helicóptero e Franklin solta o Chop para procurá-los. O último irmão, Elwood O’Neil, é morto e Franklin sobe no helicóptero e voltam para o aeroporto.
+							</p>
+						</div>
+						<div id="missao-o-golpe-de-paleto-bay" class="missao">
+							<h2>48. O Golpe de Paleto Bay</h2>
+							<p>
+								<img src="imagens/missoes/o-golpe-de-paleto-bay.jpg" alt="O Golpe de Paleto Bay">
+								Franklin, Lester, Michael e Trevor estão reunidos no Liquor Ace para realizar o golpe ao banco de Paleto Bay. Eles vão até lá, deixam o Franklin ali perto e invadem o banco, rendendo os clientes e roubando o cofre. A polícia chega, e então os três saem do banco pesadamente armados – Trevor com uma minigun – e protegidos. Eles combatem a polícia, mas o exército chega com equipamento pesado, como tanques. Franklin aparece com uma escavadeira, e vai com ela resgatar Michael e Trevor. Eles vão até a parte de trás da fábrica e fogem com um trem. O agente Sanchez aparece para pegar o dinheiro.
+							</p>
+						</div>
+						<div id="missao-descarrilhado" class="missao">
+							<h2>49. Descarrilhado</h2>
+							<p>
+								<img src="imagens/missoes/descarrilhado.jpg" alt="Descarrilhado">
+								Michael entra no trailer do Trevor e é avisado por Ron que o trem mensal está vindo. Então Trevor vai pular no trem de moto, enquanto Michael vai pra baixo da ponte de Reton Canyon. Ele abate o maquinista e toma o controle do trem. Enquanto isso Michael vai para de baixo da ponte com um bote. Quando ele chega lá, vê os dois trens batendo de frente e Trevor pulando. Os trailers caem todos no rio. Michael explode a tampa do contêiner e remove o ouro, enquanto Trevor dá cobertura na beira do rio, e os homens da Merryweather chegam. Os dois se livram deles e fogem de barco Rio abaixo, porém os homens da Merryweather os perseguem de bote. Eles fogem e vão para a praia, onde há veículos de fuga.
+							</p>
+						</div>
+						<div id="missao-fazendo-macaquices" class="missao">
+							<h2>50. Fazendo Macaquices</h2>
+							<p>
+								<img src="imagens/missoes/fazendo-macaquices.jpg" alt="Fazendo Macaquices">
+								Michael, Trevor e Franklin se encontram com Dave e Steve em Cape Carfish. Enquanto Trevor e Franklin cuidam da fuga, Dave, Steve e Michael vão de barco e mergulham até uma entrada subterrânea que dá acesso ao prédio da Merryweather. Michael corta a grade de proteção com um maçarico e nada até o laboratório. Ele usa a arma de choque para atacar os pesquisadores e chegar até a neurotoxina. Ele pega a neurotoxina e na volta eles tem que combater os seguranças do local. Depois de eliminar os guardas, Michael coloca a neurotoxina na unidade de refrigeração. Trevor chega com o helicóptero de carga Cargobob e leva a carga para a pista de pouso e coloca na carreta do caminhão. Por último, Trevor leva Patricia de volta para seu marido, Martin Madrazo.
+							</p>
+						</div>
+					</div>
+					<div id="pagina-6" class="pagina">
+						<div id="missao-hang-ten" class="missao">
+							<h2>51. Hang Ten</h2>
+							<p>
+								<img src="imagens/missoes/hang-ten.jpg" alt="Hang Ten">
+								Trevor vai ao apartamento do primo do Wade, Floyd, e é mal recebido. A namorada dele, Debra, está lá e aponta uma arma para Trevor e ele mata os dois. Depois vai com Wade até o clube de Striptease Vanilla Unicorn e tome conta do lugar.
+							</p>
+						</div>
+						<div id="missao-fitando-o-golpe" class="missao">
+							<h2>52. Fitando o Golpe</h2>
+							<p>
+								<img src="imagens/missoes/fitando-o-golpe.jpg" alt="Fitando o Golpe">
+								Michael, Trevor, Lester e Franklin se reúnem no Vanilla Unicorn e começam a falar do grande golpe ao Union Depository, para roubarem 100 milhões em ouro. Michael e Franklin observam as entradas do banco enquanto Trevor e Lester vão pegar um helicóptero no aeroporto do deserto. Eles voam até Murrieta Heights. Trevor segue o comboio de carros forte, enquanto Lester filma. Por último filmam a entrada da construção ao lado da banco e vão embora.
+							</p>
+						</div>
+						<div id="missao-infiltrado" class="missao">
+							<h2>53. Infiltrado</h2>
+							<p>
+								<img src="imagens/missoes/infiltrado.jpg" alt="Infiltrado">
+								Franklin liga para Molly, que pede a ele que pule o muro do estúdio e roube o carro JB 700. Para isso, ele apaga um ator chamado Brandon e rouba a roupa dele para se aproximar do carro. Então rouba o carro JB 700, foge dos seguranças e entrega o carro na oficina do Devin Weston. Aperte o botão para ejetar o banco do carro com a atriz chata junto. Lamar descobre a localização de Franklin e aparece na oficina.
+							</p>
+						</div>
+						<div id="missao-o-assassinato-na-construcao" class="missao">
+							<h2>54. O Assassinato na Construção</h2>
+							<p>
+								<img src="imagens/missoes/o-assassinato-na-construcao.jpg" alt="O Assassinato na Construção">
+								Franklin atende ao telefonema do Lester em um orelhão. Lester informa que Franklin vai ter que eliminar o mafioso e incorporador imobiliário Enzo Bonelli, dono da da Gold Coast Development. Franklin vai até o prédio em construção no centro de Los Santos, onde Enzo está, no topo do prédio, perto do helicóptero.
+							</p>
+						</div>
+						<div id="missao-aguas-passadas" class="missao">
+							<h2>55. Águas Passadas</h2>
+							<p>
+								<img src="imagens/missoes/aguas-passadas.jpg" alt="Águas Passadas">
+								Trevor vai até a casa do Michael e eles discutem sobre o passado. Trevor pergunta quem foi enterrado no lugar de Michael e ele chega a conclusão que Brad está enterrado na cova, mas não diz nada. Ele vai para o aeroporto de Los Santos para pegar um vôo até North Yankton. Michael vai atrás, mas os dois são observados e seguidos pelos homens do sr. Cheng. Ele vai até o túmulo dele no cemitério de Ludendorff e encontra Trevor cavando. Trevor cava até o caixão e descobre que Brad está morto e enterrado ali. Os homens do Sr. Cheng cercam os dois no cemitério, mas Michael fica, enquanto Trevor foge… Ao tentar escapar de carro, Michael é capturado. Trevor volta pilotando para San Andreas e pousa no aeroporto de Sandy Shores. Wen Cheng liga para Trevor ameaçando matar Michael, pois Trevor está atrapalhando a expansão dos negócios dele em Blaine County.
+							</p>
+						</div>
+						<div id="missao-o-homem-do-saco" class="missao">
+							<h2>56. O Homem do Saco</h2>
+							<p>
+								<img src="imagens/missoes/o-homem-do-saco.jpg" alt="O Homem do Saco">
+								Trevor liga para Lamar, que o chama para participar da equipe de roubo de carros do Devin Weston. Lamar pede para Trevor buscar o caminhão cegonha Packer. Franklin vai ao encontro de Lamar e dirige o carro Pegassi Monroe e coloca ele em cima do Packer, que está na frente da garagem do Devin. Os três então seguem com o caminhão cegonha até Paleto Bay, pela Senora Freeway. No meio do daminho a polícia persegue eles. Franklin vai para trás do caminhão e sai com o carro JB 700, para eliminar os carros dos policiais. Eles escapam da polícia, então Franklin liga para Molly e avisa que está subindo a Great Ocean Highway e então se encontram com a Molly. Ela os enrola e mais uma vez não paga pelos roubos.
+							</p>
+						</div>
+						<div id="missao-carne-fresca" class="missao">
+							<h2>57. Carne Fresca</h2>
+							<p>
+								<img src="imagens/missoes/carne-fresca.jpg" alt="Carne Fresca">
+								Trevor vai para a casa de Franklin, tropeça na cerca e fica revoltado por Franklin rir da cara dele. Franklin pergunta sobre Michael. Trevor responde que ele foi sequestrado por chineses de Yangshan, China. Franklin liga para Lester e recebe o aplicativo Trackify para rastrear a localização do celular do Michael. Os chineses ligam a máquina no frigorífico e Michael está indo lentamente em direção a máquina de corte. Franklin chega ao local e consegue resgatar Michael e os dois conseguem sair de lá. Após eliminar os chineses vão para a casa do Michael.
+							</p>
+						</div>
+						<div id="missao-a-balada-do-rocco" class="missao">
+							<h2>58. A Balada do Rocco</h2>
+							<p>
+								<img src="imagens/missoes/a-balada-do-rocco.jpg" alt="A Balada do Rocco">
+								Michael chega ao estúdio e vê Solomon sendo espancado por dois homens. Ele vai atrás do Rocco e do Gianni e mata os dois. Michael volta ao escritório do Solomon e este mostra o nome de Michael nos créditos do filme ‘O colapso’.
+							</p>
+						</div>
+						<div id="missao-limpando-o-fib" class="missao">
+							<h2>59. Limpando o FIB</h2>
+							<p>
+								<img src="imagens/missoes/limpando-o-fib.jpg" alt="Limpando o FIB">
+								Michael, Lester, Dave e Steve se reúnem na fábrica Darnell Bros. Steve Haines manda Michael apagar os arquivos dele dentro da sede do FIB. Lester e Michael vão para o prédio da FIB. Eles param em frente a entrada e esperam o carro do zelador Harvey passar para seguí-lo até o apartamento dele. Michael entra no apartamento do sujeito e pega o macacão e crachá dele para usar na invasão do FIB. De volta a fábrica eles encontram Franklin. Lester fala que precisa das plantas do prédio do FIB, que estão com o arquiteto Chip Peterson. Michael manda Franklin buscar a planta.
+							</p>
+						</div>
+						<div id="missao-reunindo-a-familia" class="missao">
+							<h2>60. Reunindo a Família</h2>
+							<p>
+								<img src="imagens/missoes/reunindo-a-familia.jpg" alt="Reunindo a Família">
+								Michael acorda de manhã com o Jimmy chamando ele. Os dois vão até o Bean Machine para encontrar com Amanda, que está com Fabien, que tem a cara quebrada por Michael. Jimmy, Michael e Amanda combinam de ir no consultório do dr. Friedlander e vão buscar Tracey no estúdio de tatuagem. Michael encontra Lazlow, corta o rabo de cavalo dele e faz uma tatuagem. A família se encontra no consultório do Dr. Friedlander, discutem e voltam pra casa.
+							</p>
+						</div>
+					</div>
+					<div id="pagina-7" class="pagina">
+						<div id="missao-pai-coruja" class="missao">
+							<h2>61. Pai Coruja</h2>
+							<p>
+								<img src="imagens/missoes/pai-coruja.jpg" alt="Pai Coruja">
+								Tracey liga para Michael pedindo ajuda, pois tem um homem perseguindo ela no Vinewood Plaza. Ele vai até ela e procura o suspeito com com o carro da Tracey, na Hawaiian Snow, depois no motel do lado da construção, no Cluckin Bell, em Rockford Plaza e depois no Croq-a-Hoop. Então eles encontram o cara. Michael o persegue e mata-o.
+							</p>
+						</div>
+						<div id="missao-a-planta-do-arquiteto" class="missao">
+							<h2>62. A Planta do Arquiteto</h2>
+							<p>
+								<img src="imagens/missoes/a-planta-do-arquiteto.jpg" alt="A Planta do Arquiteto">
+								Franklin vai até o prédio em construção no centro de Los Santos e segue o arquiteto, que está com as plantas do prédio do FIB. Ele nocauteia o arquiteto, rouba a maleta e foge dos funcionário do canteiro de obras e da polícia. Franklin leva as plantas para o Lester na fábrica de roupas, onde Michael também está. Lester explica o golpe e o jogador tem que escolher entre dois planos: Disfarçar-se de zelador, plantar a bomba e explodi-lá, para invadir o prédio disfarçados de bombeiros, ou invadir o prédio de pára-quedas e hackear o sistema. Também deve escolher um hacker, um atirador e um piloto de fuga.
+							</p>
+						</div>
+						<div id="missao-caminhao-de-bombeiros" class="missao">
+							<h2>63. Caminhão de Bombeiros</h2>
+							<p>
+								<img src="imagens/missoes/caminhao-de-bombeiros.jpg" alt="Caminhão de Bombeiros">
+								Se você escolheu o Plano A da Invasão do FIB, precisará roubar um caminhão de bombeiro. Vá com o Michael a uma rua ou bairro pouco movimentado, ligue para 911 e chame os bombeiros. Quando eles chegarem roubem o caminhão, fuja da polícia e entregue na “garagem” do Lester.
+							</p>
+						</div>
+						<div id="missao-a-invasao-do-fib-plano-a" class="missao">
+							<h2>64. A invasão do FIB – Plano A</h2>
+							<p>
+								<img src="imagens/missoes/a-invasao-do-fib-plano-a.jpg" alt="A invasão do FIB – Plano A">
+								Michael e Lester se reúnem na fabrica para a invasão do FIB. Depois da introdução, siga para o prédio do FIB e passe pelas catracas usando o cartão de acesso. Entre no elevador para subir, vá a sala onde há um esfregão para você usar, siga até os escritórios. Esfregue o chão usando os comandos descritos. Depois de limpo coloque e arme a bomba no armário ao lado. Pegue o balde, o esfregão e siga para outra sala. Novamente esfregue o chão e siga em frente para limpar o corredor seguinte. Neste corredor coloque a bomba dentro do banheiro, volte e pegue novamente o balde. Agora volte para o armário onde foi pego o balde com o esfregão, entre no elevador e saia do prédio.
+								<br><br>
+								Agora com o caminhão de bombeiros, siga até Michael para pega-lo. Quando Michael entrar no caminhão use o celular para acionar as bombas C4. O prédio explodirá. Siga para o prédio, entre no elevador e siga para o ultimo andar usando as escadas. Uma vez no seu destino, siga para pegar o drive de contenção que está marcado no seu mapa de localização. Para isso, você terá que explodir a porta antes, assim que pegar o drive, siga seus comparsas. Na fuga, um deles morre devido a explosão da porta, continue seguindo. Em uma certa altura, Franklin apaga por causa de uma explosão e quando acorda fica sabendo que os policiais já descobriram que eles não são bombeiros. Pegue uma arma e siga em direção aos seus amigos matando seus inimigos que entrarem em seu caminho. Quando encontrar eles, suba nos destroços, siga para fosso do elevador e desça de rapel. Agora saia do prédio, entre no caminhão de bombeiros e siga para o local de fuga. Quando chegar destrua o caminhão de bombeiros, entre no outro carro estacionado e vá para a casa do Lester para terminar a missão.
+							</p>
+						</div>
+						<div id="missao-a-invasao-do-fib-plano-b" class="missao">
+							<h2>65. A invasão do FIB – Plano B</h2>
+							<p>
+								<img src="imagens/missoes/a-invasao-do-fib-plano-b.jpg" alt="A invasão do FIB – Plano B">
+								Michael vai até a fábrica de roupas e vê Lester jogando gasolina para queimar o lugar. Franklin chega e então eles vão até o prédio da N.O.O.S.E. em Palomino Highlands. Eles seguem até o centro de Los Santos com o helicóptero e pulam de paraquedas, até cair no terraço do prédio do FIB. Eles quebram o vidro do teto e entram na sede. Michael vai até a sala do servidor e explode a porta. O alarme é acionado. Michael entra no computador, clica em ConectarHackear.exe e tem que encontrar o IP na sequência de números. Depois ele roda o aplicativo ForçaBruta.exe. O jogador tem que alinhar as letras em vermelho. Michael então clica em Desligado&Fora para copiar os arquivos. Enquanto os arquivos são copiados, Michael, Franklin e o atirador resistem ao ataque dos seguranças do FIB. O helicóptero de resgate é derrubado pelo FIB. Eles então descem por dentro do prédio, e por fora, usando cordas. Eles resistem ao ataque da polícia e da equipe do N.O.O.S.E. até conseguirem entrar no carro de fuga. Eles despistam a polícia, vão para a casa do Lester e se encontram com o Lester.
+							</p>
+						</div>
+						<div id="missao-o-encerramento" class="missao">
+							<h2>66. O Encerramento</h2>
+							<p>
+								<img src="imagens/missoes/o-encerramento.jpg" alt="O Encerramento">
+								Michael vai até o Kortz Center, em Pacific Bluffs, e se encontra com Dave. Steve chega com o agente Andreas Sanchez e manda prender os dois. Uma equipe do FIB chamada por Sanchez cerca os quatro. Steve leva um tiro na perna e atira na cabeça do agente, então começa o tiroteio. Michael tem que fugir do Kortz Center com o Dave Norton. Agentes da Merryweather aparecem de helicóptero, entãoTrevor aparece com um rifle sniper, ajuda Michael e Dave, e todos eles conseguem fugir.
+							</p>
+						</div>
+						<div id="missao-lamar-em-perigo" class="missao">
+							<h2>67. Lamar em Perigo</h2>
+							<p>
+								<img src="imagens/missoes/lamar-em-perigo.jpg" alt="Lamar em Perigo">
+								Tanisha Jackson aparece na casa do Franklin e pede ajuda, pois Lamar está com problemas por causa do Stretch e foi sequestrado pelos Ballas. Ele vai até a serralheria em Paleto Bay e se encontra com Michael e Trevor lá. Eles invadem o local, combatem os Ballas e libertam o Lamar. Franklin leva Lamar para casa e é abordado por Steve e Dave. Eles pedem para que Franklin mate o Trevor.
+							</p>
+						</div>
+						<div id="missao-problemas-legais" class="missao">
+							<h2>68. Problemas Legais</h2>
+							<p>
+								<img src="imagens/missoes/problemas-legais.jpg" alt="Problemas Legais">
+								Michael vai até o escritório do Solomon e encontra Molly e Devin lá. Devin diz que o filme será cancelado e o estúdio destruído para criação de um condomínio. Solomon chega com os negativos do filme, mas Molly os pega e vai embora. Michael vai atrás dela até o aeroporto de Los Santos, onde ela morre sugada pela turbina de uma avião.
+							</p>
+						</div>
+						<div id="missao-o-colapso" class="missao">
+							<h2>69. O Colapso</h2>
+							<p>
+								<img src="imagens/missoes/o-colapso.jpg" alt="O Colapso">
+								Michael vai à loja de roupas Ponsonbys para comprar um terno para ir à estréia do filme “O Colapso”. Ele vai ao ao Oriental Theater em Vinewood Boulervard para a estréia do filme com o Jimmy em uma limousine. Eles chegam no tapete vermelho, mas não encontram Tracey e Amanda. Devin aparece lá, insinuando que alguma coisa aconteceu com elas. Michael vai para casa, abate os homens do Devin, mas é rendido por um deles. Jimmy acerta o sujeito e salva Michael.
+							</p>
+						</div>
+						<div id="missao-educando-filhos" class="missao">
+							<h2>70. Educando Filhos</h2>
+							<p>
+								<img src="imagens/missoes/educando-filhos.jpg" alt="Educando Filhos">
+								Michael vai ao escritório do Trevor na casa noturna. Lá estão Trevor, Franklin e Lester. Os quatro então planejam o grande golpe contra o Union Depository. O jogador terá que escolher entre dois planos: Um dos planos é levar uma tuneladora até a obra que está sendo feita ao lado do banco, furar a parede até o cofre e transporta o ouro de helicóptero até um trem. A outra forma é roubando carros fortes e transportando o ouro em carros comuns. Após escolher os planos e sair do escritório, Michael recebe uma ligação de Jimmy pedindo ajuda, pois foi sequestrado por alguma celebridade que foi insultada por ele na internet.
+							</p>
+						</div>
+					</div>
+					<div id="pagina-8" class="pagina">
+						<div id="missao-o-desvio" class="missao">
+							<h2>71. O Desvio</h2>
+							<p>
+								<img src="imagens/missoes/o-desvio.jpg" alt="O Desvio">
+								Michael telefone pra Trevor pedindo ajuda para pegar o trem que será usado no roubo a Union Depository. Ele vai até a ferrovia, tira os funcionários de ação e desvia os trilhos para os trens pararem na plataforma. Trevor vai com um helicóptero guincho e pega a locomotiva, colocando em cima da carreta do caminhão. Ele volta e pega mais um vagão de carga.
+							</p>
+						</div>
+						<div id="missao-tuneladora" class="missao">
+							<h2>72. Tuneladora</h2>
+							<p>
+								<img src="imagens/missoes/tuneladora.jpg" alt="Tuneladora">
+								Trevor vai até o estacionamento onde está a tuneladora e rouba a carreta que está com ela em cima, se livra da polícia e leva até um estacionamento perto do Union Depository.
+							</p>
+						</div>
+						<div id="missao-o-grande-golpe-plano-a" class="missao">
+							<h2>73. O Grande Golpe – Plano A</h2>
+							<p>
+								<img src="imagens/missoes/o-grande-golpe-plano-a.jpg" alt="O Grande Golpe – Plano A">
+								Trevor, Michael, Franklin e Lester se encontram no Vanilla Unicorn. Eles se preparam para o grande golpe. Michael e Trevor roubam dois carros fortes nos túneis e entram no banco disfarçados de segurança, pegam todo o ouro e saem. No caminho recebem uma ligação do Lester dizendo que a Merryweater descobriu que eles roubaram o banco. Eles fogem e se encontram com Franklin, onde os carros blindados estão escondidos. Logo após a animação chega a equipe pesada de Merryweather, depois de muita morte e troca de tiros, conseguem fugir nos carros blindados. Despistam a polícia e entram dentro dos caminhões nos túneis. Depois de tudo feito, eles voltam para a casa de Michael onde Lester está esperando.
+							</p>
+						</div>
+						<div id="missao-o-grande-golpe-plano-b" class="missao">
+							<h2>74. O Grande Golpe – Plano B</h2>
+							<p>
+								<img src="imagens/missoes/o-grande-golpe-plano-b.jpg" alt="O Grande Golpe – Plano B">
+								Trevor, Michael, Franklin e Lester se encontram no Vanilla Unicorn. Eles se preparam para o grande golpe. Michael vai até o banco e pega um dos membros da equipe. Franklin fura a parede no túnel até o cofre do banco, coloca explosivos nas grades dos cofres e detona. Ele combate os agentes do NOOSE enquanto outro membro da equipe carrega o ouro até o local de retirada. Trevor pega o ouro com os helicóptero. Enquanto isso Michael combate a polícia fora do banco até chegar ao carro de fuga. Trevor vai levar o ouro até o trem, mas aparecem helicópteros da Merryweather. Ele então ajuda Lester a derrubá-los com RPG. Eles colocam o ouro no trem e voltam para a pista de pouso.
+							</p>
+						</div>
+						<div id="missao-sensatez" class="missao">
+							<h2>75. Sensatez</h2>
+							<p>
+								<img src="imagens/missoes/sensatez.jpg" alt="Sensatez">
+								Para os dois primeiros finais você não precisa se preocupar com munição e poder de fogo, eles são mais cinematográficos. Franklin irá ligar para Trevor e marcar um encontro em um local isolado. Depois ele ligará para Michael, o qual ficará um pouco relutante de ajudar, mas irá se juntar a você mais tarde. Dirija até o local combinado para encontrar Trevor, após você sacar a arma ele irá fugir de carro. Persiga-o usando a habilidade especial de Franklin para escapar dos carros e aguarde. Ao chegar no campo de petróleo, Michael irá intervir e bater no carro de Trevor. Trevor ficará coberto de gasolina e bastará um tiro para incendiá-lo. Caso você demore demais para fazer isso, ou esteja sem munição, Michael irá eventualmente dar o tiro. Trevor morrerá queimado e os dois outros protagonistas se separam, cada um para o seu caminho, se convencendo de que fizeram o necessário.
+							</p>
+						</div>
+						<div id="missao-chegou-a-hora" class="missao">
+							<h2>76. Chegou a hora</h2>
+							<p>
+								<img src="imagens/missoes/chegou-a-hora.jpg" alt="Chegou a hora">
+								De maneira semelhante ao primeiro final, caso você escolha matar Michael, Franklin irá telefonar para ele e marcar um encontro em um lugar isolado. Ironicamente, depois ele ligará para Trevor pedindo ajuda para matar Michael, mas Trevor recusará, diferente de seu amigo. Dirija até o local combinado no mapa e Michael estará lá, feliz e relaxado, até o momento em que percebe a traição de Franklin. Nesse momento Michael tentará fugir de carro e você precisa persegui-lo. Não se preocupe em atirar no carro, não é necessário. Após alguns instantes, ele irá sair do carro e subir por uma passarela, continue perseguindo-o agora a pé. Ele disparará algumas vezes contra você, proteja-se se necessário e continue seguindo-o, subindo pela estrutura. No topo, haverá uma cena de luta entre Michael e Franklin que termina com Michael quase caindo e Franklin o segurando. O jogo mostra uma opção para deixá-lo cair ou salvá-lo, mas ironicamente ambas terminarão com Michael caindo no final.
+							</p>
+						</div>
+						<div id="missao-a-opcao-c" class="missao">
+							<h2>77. A Opção C</h2>
+							<p>
+								<img src="imagens/missoes/a-opcao-c.jpg" alt="A Opção C">
+								Devin aparece na casa de Franklin e diz que ele precisa se livrar do Michael. Franklin então tem que escolher entre matar o Trevor, Michael, ou arriscar tudo. Em A Opção C, Franklin liga para Lester e vai para a casa dele. Lester sugere que Franklin atraia os homens de Steve (FIB) e Devin (Merryweather) para a fundição, e elimine todos eles. Franklin pede ajuda do Lamar e vai buscá-lo na casa dele. Eles vão para a fundição. Franklin encontra Trevor e Michael quase se matando. Todos tomam posição para combater o inimigo. Eles conseguem eliminar todos. Então decidem acabar com Steve Haines, Wei Cheng da Triade, Stretch (Harold Joseph), e Devin Weston. Dave Norton será poupado. Trevor vai até o Pier Del Perro e elimina Steve Haines, que estava na roda gigante gravando seu programa. Michael vai até o centro recreativo B.J. Smith e elimina o Stretch. Franklin vai atrás de Tao e Wen Cheng em Pacific Bluffs. Trevor vai até a casa do Devin, sequestra ele, põe no porta-malas e vai se encontrar com Franklin e Michael. Trevor mostra a eles o Devin no porta-malas do carro e então os três empurram o carro no penhasco. O carro cai no mar e explode. Os três se despedem e aparecem os créditos do jogo. Esse é o final das missões principais do GTA V.
+							</p>
+						</div>
+					</div>
+					<div id="navegador-paginas">
+						<ul>
+							<li><a href="#" id="pagina-anterior">«</a></li>
+							<li><a href="#" id="pagina-proxima">»</a></li>
+						</ul>
+						<div id="paginas">
+							<span id="pagina-atual">1</span> / <span id="total-paginas"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="footer">
+				<p id="slogan">"Welcome to Los Santos, the city where you can walk freely with a bazooka on the street."</p>
+				<div id="redes_sociais">
+					<a href="http://www.facebook.com" target="_blank" id="facebook"></a>
+					<a href="http://www.twitter.com" target="_blank" id="twitter"></a>
+					<a href="http://www.plus.google.com" target="_blank" id="google-plus"></a>
+					<a href="http://www.youtube.com" target="_blank" id="youtube"></a>
+					<a href="http://www.instagram.com" target="_blank" id="instagram"></a>
+					<a href="http://www.linkedin.com" target="_blank" id="linkedin"></a>
+				</div>
+				<p id="copyright">
+					Copyright © 2017 | Wesley Alves da Silva<br>
+					Todos os direitos reservados.
+				</p>
+            </div>
+		</div>
+	</body>
+</html>
